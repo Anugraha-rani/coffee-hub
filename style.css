@@ -12,6 +12,7 @@
 }
 body,html{
     overflow-x: hidden;
+   
 }
 .image1{
     height: 350px;
@@ -33,4 +34,75 @@ body,html{
 .vid{
     object-fit: cover;
     height: 510px;
+}
+.img{
+    width: 50px;
+  height: 40px;
+}
+.img1{
+    width: 40px;
+    height: 40px;
+}
+.img2{
+    width: 40px;
+    height: 35px;
+}
+.anc{
+    text-decoration: none;
+    color: grey;
+    line-height: 2.5rem;
+}
+.foot{
+   margin-left: 200px;
+}
+.last{
+    color: grey;
+    
+}
+.lastdiv{
+    margin-top: 70px;
+}
+.firstdiv{
+    margin-top: -30px;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+@media(max-width:570px){
+    .firsthead{
+        font-size: 20px;
+    }
+    .girlimg{
+        width: 200px;
+        height: 100px;
+    }
+    .background{
+        height: 1000px;
+    }
+    .head1{
+        font-size: 30px;
+    }
+    .head2{
+        font-size: 20px;
+    }
+    .head3{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .head4{
+        font-size: 50px;
+    }
+}
+@media(min-width:571px) and (max-width:1000px){
+    .firsthead{
+        font-size: 20px;
+    }
+    .girlimg{
+       width: 250px;
+       height: 120px;
+    }
+    .background{
+        height: 800px;
+    }
 }
